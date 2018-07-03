@@ -700,7 +700,6 @@ footer {
 
 #skills {
     padding: 50px 15px;
-    background: $base-color;
     text-align: center;
 
     h2 {
@@ -720,7 +719,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt, 5%);
+        background: $base-color;
         border-radius: 4px;
         list-style: none;
         cursor: default;
@@ -736,11 +735,12 @@ footer {
 
 #contact {
     padding: 50px 15px;
+    background: $background-alt;
     text-align: center;
 
     h2 {
         margin: 0 0 15px 0;
-        color: #fff;
+        color: $heading;
         font-weight: 500;
     }
 }
@@ -756,16 +756,15 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: $base-color;
-        color: #fff;
+        color: $header;
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: $header;
         }
 
         &:focus {
             outline: none;
-            background: darken($base-color, 10%);
+            background: lighten($base-color, 25%);
         }
     }
 
@@ -777,11 +776,11 @@ footer {
     button {
         display: block;
         width: 100%;
-        background: #fff;
+        background: $base-color;
         border-radius: 4px;
         padding: 5px 10px;
         border: none;
-        color: $base-color;
+        color: #fff;
         font-weight: 700;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         @include transition();
