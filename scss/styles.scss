@@ -297,7 +297,7 @@ footer {
     color: #fff;
     padding: 15px 25px;
     border: 3px solid #fff;
-    border-radius: 30px;
+    border-radius: 4px;
     @include transition();
 
     &:hover {
@@ -512,6 +512,7 @@ footer {
     padding: 15px;
     border-radius: 3px;
     text-align: left;
+    border-radius: 4px;
 
     h3 {
         font-size: 1.5em;
@@ -593,6 +594,7 @@ footer {
     padding: 15px;
     border: 1px solid $border;
     text-align: left;
+    border-radius: 4px;
 
     h3 {
         font-weight: 500;
@@ -660,6 +662,7 @@ footer {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    border-radius: 4px;
 
     h3 {
         font-size: 1.5em;
@@ -696,6 +699,7 @@ footer {
 
 #skills {
     padding: 50px 15px;
+    background: $base-color;
     text-align: center;
 
     h2 {
@@ -716,6 +720,7 @@ footer {
         padding: 5px 10px;
         color: $heading;
         background: darken($background-alt, 5%);
+        border-radius: 4px;
         list-style: none;
         cursor: default;
         font-size: 1.2em;
@@ -730,7 +735,6 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: $base-color;
     text-align: center;
 
     h2 {
@@ -751,7 +755,7 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: darken($base-color, 15%);
+        background: $base-color;
         color: #fff;
         @include transition();
         @include placeholder {
@@ -760,7 +764,7 @@ footer {
 
         &:focus {
             outline: none;
-            background: darken($base-color, 25%);
+            background: darken($base-color, 10%);
         }
     }
 
