@@ -353,7 +353,9 @@ footer {
     min-height: 500px;
     max-height: 1080px;
     background: url(../images/JumpingONP.jpg);
-    background-size: auto;
+    background-size: auto 97%;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 15px;
     overflow: hidden;
 }
@@ -361,10 +363,12 @@ footer {
 #lead-content {
     position: absolute;
     z-index: 10;
-    top: 75%;
-    left: 50%;
+    top: 77%;
+    left: 49%;
     transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
+    font-size: 55%;
+    text-shadow: 2px 2px 2px #484848;
 
     h1, h2 {
         margin: 0;
@@ -395,7 +399,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    // background: rgba($base-color-hover, 0.8);
     z-index: 1;
 }
 
