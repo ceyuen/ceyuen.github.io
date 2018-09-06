@@ -352,8 +352,8 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
-    background-size: cover;
+    background: url(../images/JumpingONP.jpg);
+    background-size: auto;
     padding: 15px;
     overflow: hidden;
 }
@@ -361,8 +361,8 @@ footer {
 #lead-content {
     position: absolute;
     z-index: 10;
-    top: 50%;
-    left: 30%;
+    top: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
 
