@@ -407,12 +407,12 @@ footer {
 #lead-down {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 100%;
     width: 100%;
     text-align: center;
     z-index: 10;
     color: #fff;
-    margin-top: 47%;
+    margin-top: 15%;
     font-size: initial;
 
     span {
