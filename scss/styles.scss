@@ -298,9 +298,10 @@ footer {
 .btn-rounded-white {
     display: inline-block;
     color: #fff;
-    padding: 15px 25px;
+    padding: 5px 15px;
     border: 3px solid #fff;
     border-radius: 4px;
+    font-size: 1.5rem;
     @include transition();
 
     &:hover {
@@ -409,7 +410,7 @@ footer {
     width: 100%;
     text-align: center;
     z-index: 10;
-    bottom: 15px;
+    bottom: 3%;
     color: #fff;
 
     span {
