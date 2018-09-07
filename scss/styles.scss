@@ -34,8 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #9bc5f5;
-$base-color-hover: #378cec;
+$base-color: #378cec;
+$base-color-hover: darken(#378cec, 10%);
 a {
     color: $base-color;
 }
@@ -386,7 +386,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: lighten($base-color, 60%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
