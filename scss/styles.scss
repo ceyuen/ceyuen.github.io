@@ -301,7 +301,7 @@ footer {
     padding: 5px 15px;
     border: 3px solid #fff;
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: initial;
     @include transition();
 
     &:hover {
@@ -406,12 +406,13 @@ footer {
 #lead-down {
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
     width: 100%;
     text-align: center;
     z-index: 10;
-    bottom: 3%;
     color: #fff;
+    margin-top: 58%;
+    font-size: initial;
 
     span {
         cursor: pointer;
