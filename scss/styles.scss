@@ -894,17 +894,20 @@ footer {
 
     #lead {
         height: auto;
-        min-height: auto;
+        min-height: 500px;
         max-height: auto;
         padding: 100px 15px;
     }
 
     #lead-content {
-        position: relative;
-        transform: none;
-        left: auto;
-        top: auto;
-        text-align: left;
+        position: absolute;
+        z-index: 10;
+        top: 77%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 80%;
+        text-shadow: 2px 2px 2px #484848
 
         h1 {
             font-size: 3em;
